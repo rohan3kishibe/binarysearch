@@ -1,7 +1,7 @@
-import java.util.Scanner;
+package binsearch_java;
 
 public class q5 {
-    public static boolean solve(int num) {
+    public boolean solve(int num) {
         boolean status = false;
         int q = num;
         int newNum = 0;
@@ -15,12 +15,4 @@ public class q5 {
         }
         return status;
     }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(solve(n));
-        sc.close();
-    }
-
 }

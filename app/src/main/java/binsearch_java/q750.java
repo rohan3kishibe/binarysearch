@@ -1,7 +1,7 @@
-import java.util.Scanner;
+package binsearch_java;
 
 public class q750 {
-    public static boolean solve(int n) {
+    public boolean solve(int n) {
         boolean status = false;
         if (n == 0) {
             return true;
@@ -13,12 +13,5 @@ public class q750 {
             }
         }
         return status;
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(solve(n));
-        sc.close();
     }
 }
